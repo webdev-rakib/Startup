@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-user-select:none;
+ -moz-user-select:none;
+ -o-user-select:none;
+ -user-select:none;
+}
+
+
+/*************   Header Section   *************/
+
+
+
+
+a{
+text-decoration: none;
+}
+header{
+width: 100%;
+}
+.dropdown:hover>.dropdown-menu{
+display: block;
+transition: 1s;
+}
+.banner{
+width: 100%;
+height: 900px;
+background-image: url(../image/menubar.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: saturation;
+background-color: rgba(9, 9, 9, 0.8);
+}
+.banner-content{
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.banner-content h1{
+color: #fff;
+font-family: "Roboto",sans-serif;
+font-size: 72px;
+font-weight: 400;
+line-height: 84px;
+margin-bottom: 54px;
+margin: 170px 15px 45px 0px;
+}
+.banner-btn{
+background: #615cfd;
+color: #fff;
+display: inline-block;
+padding: 12px 33px;
+font-family: "Muli",sans-serif;
+font-size: 16px;
+font-weight: 500;
+border: 0;
+border: 1px solid transparent;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+text-align: center;
+color: #fff!important;
+text-transform: capitalize;
+-webkit-transition: .5s;
+-moz-transition: .5s;
+-o-transition: .5s;
+transition: .5s;
+cursor: pointer;
+/*margin-left: 50px;*/
+}
+.banner-btn:hover{
+border: 1px solid #615cfd;
+color: #615cfd!important;
+background: transparent;
+}
+.hello{
+color: white!important;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+text-transform: capitalize;
+font-weight: 600;
+}
+.nav-link{
+color: white!important;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+text-transform: capitalize;
+font-weight: 400;
+display: inline-block;
+}
+.nav-item{
+margin: 0px 15px;
+}
+.hellos a::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 3px;
+background-color: #615cfd;
+left: 0;
+bottom: -10px;
+}
+
+.nav-item a:hover{
+	color: #0056b3!important;
+	font-weight: 400;
+}
+.dropdown-menu li a .dropdown-item: hover{
+	color: #615cfd!important;
+	background-color: red;
+}
+
+
+
+
+
+
+/*************   Service Section   *************/
+
+
+.service{
+	padding-top: 155px;
+    padding-bottom: 100px;
+}
+.serv{
+	font-size: 14px;
+    font-weight: 500;
+    color: #615cfd!important;
+    text-transform: capitalize;
+    margin-bottom: 19px;
+    display: block;
+    font-family: "Roboto",sans-serif;
+}
+.with{
+	font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #1f1f1f;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
+    margin-bottom: 73px;
+}
+.service .col-md-6{
+	position: relative;
+    min-height: 1px;
+}
+/*.service-center{
+    justify-content: center;
+}*/
+.design{
+	width: 100%;
+    min-height: 1px;
+}
+.outside{
+	padding: 48px 35px 45px 35px;
+    border: 2px solid #e8e8e8;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    margin-bottom: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fix{
+    justify-content: center;
+}
+.outside:hover{
+	border: 2px solid #615cfd;
+	visibility: visible;
+    animation-duration: 1.2s;
+    animation-delay: 0.4s;
+}
+.outside h3{
+	font-size: 24px;
+    font-weight: 400;
+    color: #1f1f1f;
+    margin-top: 29px;
+    margin-bottom: 10px;
+    font-family: "Roboto",sans-serif;
+}
+.outside p{
+	color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-toggler{
+	color: red!important;
+	background-color: green;
+
+}
+
+
+
+
+
+/*************   About Section   *************/
+
+
+
+.about{
+    height: 100vh;
+    background-color: #1f1f1f;
+}
+.abt{
+    font-size: 14px;
+    font-weight: 500;
+    color: white!important;
+    text-transform: capitalize;
+    margin-bottom: 19px;
+    display: block;
+    font-family: "Roboto",sans-serif
+}
+.indi{
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+    color: white!important;
+    padding-bottom: 15px;
+}
+.first-text{
+    color: #c9c9c9;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.last-text{
+    color: #c9c9c9;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+.about-detail p{
+    line-height: 28px;
+}
+
+.bg{
+    background-image: url("../image/about.png");
+    height: 100vh;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/*************   Feauters Section   *************/
+
+
+.gallery{
+    padding: 70px 0px;
+}
+/*.g1img{
+    margin-top: -2px;
+}*/
+.g-design{
+    position: relative;
+    overflow: hidden;
+}
+
+.g-hover{
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    bottom: 30px;
+    left: 35px;
+    right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px 5px 5px 5px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.g-hover:hover{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3px;
+    transform: scale(1.3);
+    transition: all 0.5s;
+    opacity: 1;
+}
+.g-hover span{
+    font-size: 12px;
+    color: #615cfd;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+}
+
+.g-hover h3{
+    color: #1f1f1f;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 11px;
+    margin-bottom: 25px;
+
+}
+.g-hover a{
+    background: #615cfd;
+    color: #fff;
+    display: inline-block;
+    padding: 9px 28px;
+    font-family: "Muli",sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff!important;
+    text-transform: capitalize;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+.g-hover a:hover{
+    border: 1px solid #615cfd;
+    color: #615cfd!important;
+    background: transparent;
+}
+.fea{
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #1f1f1f;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
+}
+.tour{
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.featour{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+
+
+/*************   Video Section   *************/
+
+.video1{
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 15px;
+}
+
+
+
+.play{
+    height: 60px;
+    width: 60px;
+    background-color: #615CFD!important;
+    text-align: center;
+    line-height: 60px!important;
+    border-radius: 100%;
+    color: white!important;
+}
+.vid{
+    background-image: url(../image/vid.png);
+    border-radius: 20px 0px 0px 20px;
+}
+.down{
+    margin-left: 5px;
+    color: green;
+}
+.watch{
+    font-size: 20px;
+    color: #1F1F1F;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+/*************   Team Section   *************/
+
+
+
+
+.team{
+    padding-top: 155px;
+    padding-bottom: 122px;
+}
+.icon ul{
+    padding-left: 0rem!important;
+ /*   display: flex;
+    justify-content: center;*/
+}
+
+.icon ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 6px;
+    /**/
+}
+.icon ul li i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: #615CFD;
+    border: 1px solid #615CFD;
+}
+.profile{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    left: 0;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.t-member:hover .icon{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.t-member h3{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #1F1F1F;
+    font-weight: 400;
+    margin-bottom: 7px;
+    padding-top: 28px;
+}
+.t-member p{
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.review{
+    height: 90vh;
+    width: 100%;
+    background-image: url(../image/review.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    background-color: rgba(9, 9, 9, 0.6);
+}
+.testi img{
+    width: 8%;
+}
+.my img{
+    border-radius: 50%;
+    width: 50px;
+}
+.testi p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 25px 0 25px 0;
+}
+.my h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.my span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.footer-top{
+    padding-top: 100px;
+    padding-bottom: 160px;
+    background: #1F1F1F;
+}
+.sicon ul{
+    margin-top: 0;
+    margin-bottom: 0rem!important;
+    display: flex;
+}
+.sicon li{
+    list-style: none;
+    margin-left: 10px;
+}
+.sicon ul li i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.2;
+}
+.sicon ul li i:hover{
+    border: 1px solid #615cfd;
+    color: #fff!important;
+    background: #615CFD;
+    transition: all 0.2;
+}
+hr{
+    background-color: green;
+    height: 2px;
+    width: 100%;
+}
+.copy{
+    padding-bottom: 25px;
+    background: #1F1F1F;
+}
+
+.line{
+    padding-top: 25px;
+    background: #1f1f1f;
+    border-top: 1px solid #363636;
+}
